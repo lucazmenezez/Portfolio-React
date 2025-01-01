@@ -20,5 +20,12 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${cores.azulEscuro};
     color: ${cores.branco};
+    padding-top: 40px;
+  }
+
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
   }
 `
