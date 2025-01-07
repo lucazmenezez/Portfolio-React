@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import Hero from "./components/Hero"
 import { GlobalStyle } from "./styles"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div className="container">
         <Header />
       </div>
+      <Hero />
     </>
   )
 }
