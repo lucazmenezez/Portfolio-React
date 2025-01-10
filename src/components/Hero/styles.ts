@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { cores } from "../../styles";
 
 export const HeroContainer = styled.div`
-  padding-bottom: 112px;
 `
 
 export const Content = styled.div`

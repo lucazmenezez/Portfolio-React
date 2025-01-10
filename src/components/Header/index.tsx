@@ -3,26 +3,26 @@ import { HeaderBar, HeaderContainer, List, Title } from "./styles"
 const Header = () => (
   <HeaderBar>
     <HeaderContainer>
-      <Title href="#">Lucas Menezes</Title>
+      <Title href="#home">Lucas Menezes</Title>
       <nav>
         <List>
           <li>
-            <a href="#">Início</a>
+            <a href="#home">Início</a>
           </li>
           <li>
-            <a href="#">Projetos</a>
+            <a href="#projects">Projetos</a>
           </li>
           <li>
-            <a href="#">Depoimentos</a>
+            <a href="#reviews">Depoimentos</a>
           </li>
           <li>
-            <a href="#">Sobre</a>
+            <a href="#about">Sobre</a>
           </li>
           <li>
-            <a href="#">Serviços</a>
+            <a href="#services">Serviços</a>
           </li>
           <li>
-            <a href="#">Dúvidas</a>
+            <a href="#faq">Dúvidas</a>
           </li>
         </List>
       </nav>

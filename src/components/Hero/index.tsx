@@ -1,7 +1,7 @@
 import { ButtonPrimary, ButtonSecondary, Content, Description, HeroContainer, ImagesContainer, MainTitle, Row } from "./styles"
 
 const Hero = () => (
-  <HeroContainer>
+  <HeroContainer id="home">
     <div className="container">
       <Content>
         <MainTitle>Transforme suas ideias em <span>designs incríveis</span></MainTitle>
