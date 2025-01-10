@@ -6,30 +6,6 @@ export const ProjectsContainer = styled.div`
   padding: 112px 0;
 `
 
-export const Title = styled.div`
-  text-align: center;
-  padding-bottom: 80px;
-  margin: 0;
-
-  h3 {
-    font-size: 14px;
-    font-weight: 500;
-    color: ${cores.roxo};
-  }
-
-  h2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin: 8px 0 16px;
-  }
-
-  p {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: ${cores.cinza};
-  }
-`
-
 export const TabButton = styled.div`
   padding-bottom: 80px;
 
