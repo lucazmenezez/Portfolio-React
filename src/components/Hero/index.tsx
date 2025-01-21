@@ -14,16 +14,16 @@ const Hero = () => (
     </div>
     <ImagesContainer>
       <Row>
-        <img src="https://via.placeholder.com/416x340" alt="placeholder" />
-        <img src="https://via.placeholder.com/416x340" alt="placeholder" />
-        <img src="https://via.placeholder.com/416x340" alt="placeholder" />
-        <img src="https://via.placeholder.com/416x340" alt="placeholder" />
+        <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
+        <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
+        <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
+        <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
       </Row>
       <Row>
-        <img src="https://via.placeholder.com/416x340" alt="placeholder" />
-        <img src="https://via.placeholder.com/416x340" alt="placeholder" />
-        <img src="https://via.placeholder.com/416x340" alt="placeholder" />
-        <img src="https://via.placeholder.com/416x340" alt="placeholder" />
+        <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
+        <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
+        <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
+        <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
       </Row>
     </ImagesContainer>
   </HeroContainer>

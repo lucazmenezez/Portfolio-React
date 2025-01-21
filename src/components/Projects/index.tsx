@@ -1,4 +1,5 @@
-import { List, ListItem, ProjectsContainer, TabButton, Title } from "./styles"
+import { Title } from "../../styles"
+import { List, ListItem, ProjectsContainer, TabButton } from "./styles"
 
 const Projects = () => {
 
@@ -29,7 +30,7 @@ const Projects = () => {
           </TabButton>
           <List>
             <ListItem>
-              <img src="https://via.placeholder.com/480x270" alt="placeholder" />
+              <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
               <span>E-commerce</span>
               <div>
                 <h4>E-commerce Eplay</h4>
@@ -43,7 +44,7 @@ const Projects = () => {
               </div>
             </ListItem>
             <ListItem>
-              <img src="https://via.placeholder.com/480x270" alt="placeholder" />
+              <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
               <span>Site Institucional</span>
               <div>
                 <h4>Site Souza Ternos</h4>
@@ -57,7 +58,7 @@ const Projects = () => {
               </div>
             </ListItem>
             <ListItem>
-              <img src="https://via.placeholder.com/480x270" alt="placeholder" />
+              <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
               <span>Landing Page</span>
               <div>
                 <h4>Landing Page de Alta Conversão</h4>
@@ -71,7 +72,7 @@ const Projects = () => {
               </div>
             </ListItem>
             <ListItem>
-              <img src="https://via.placeholder.com/480x270" alt="placeholder" />
+              <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
               <span>Site Institucional</span>
               <div>
                 <h4>Site Modelo Para Barbearias</h4>

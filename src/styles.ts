@@ -8,6 +8,11 @@ export const cores = {
   azulEscuro: '#060417'
 }
 
+export const breakpoints = {
+  tablet: '768px',
+  desktop: '1024px'
+}
+
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;

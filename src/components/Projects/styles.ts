@@ -44,8 +44,8 @@ export const ListItem = styled.ul`
   }
 
   span {
-      background-color: ${cores.branco};
-      color: ${cores.preto};
+      background-color: ${cores.roxo};
+      color: ${cores.branco};
       padding: 4px 8px;
       border-radius: 6px;
       font-size: 14px;
