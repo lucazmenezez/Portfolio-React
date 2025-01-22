@@ -69,6 +69,7 @@ export const ButtonPrimary = styled.a`
   border-radius: 8px;
   border: 2px solid ${cores.roxo};
   font-weight: 500;
+  cursor: pointer;
   transition: background-color .5s ease;
 
   &:hover {
@@ -84,6 +85,7 @@ export const ButtonSecondary = styled.a`
   border-radius: 8px;
   border: 2px solid ${cores.roxo};
   font-weight: 500;
+  cursor: pointer;
   margin-right: 16px; //remover
   transition: background-color .5s ease;
 

@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Projects from "./components/Projects"
 import Reviews from "./components/Reviews"
 import Services from "./components/Services"
+import Websites from "./components/Websites"
 
 import { GlobalStyle } from "./styles"
 
@@ -19,6 +20,7 @@ function App() {
       <Reviews />
       <About />
       <Services />
+      <Websites />
     </>
   )
 }
