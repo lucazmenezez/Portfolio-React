@@ -14,17 +14,25 @@ export const TabButton = styled.div`
     justify-content: center;
 
     li {
+      margin-left: 8px; //trocar
+      transition: all .5s ease;
 
-      button {
+      span {
         background-color: ${cores.branco};
         color: ${cores.preto};
+        border-radius: 12px;
         padding: 8px 16px;
-        border: none;
         font-size: 16px;
         font-weight: bold;
         cursor: pointer;
+        transition: all .5s ease;
       }
     }
+  }
+
+  .active {
+    color: ${cores.branco};
+    background-color: ${cores.roxo};
   }
 `
 
@@ -32,6 +40,14 @@ export const List = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
+
+  .content {
+    display: none;
+  }
+
+  .show-content {
+    display: block;
+  }
 `
 
 export const ListItem = styled.ul`
