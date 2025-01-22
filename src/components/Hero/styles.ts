@@ -38,36 +38,6 @@ export const Description = styled.p`
   margin: 16px 0 24px;
 `
 
-export const ButtonPrimary = styled.a`
-  display: inline-block;
-  padding: 12px 24px;
-  color: ${cores.branco};
-  background: ${cores.roxo};
-  border-radius: 8px;
-  border: 2px solid ${cores.roxo};
-  font-weight: 500;
-  transition: background-color .5s ease;
-
-  &:hover {
-    background-color: transparent;
-  }
-`
-
-export const ButtonSecondary = styled.a`
-  display: inline-block;
-  padding: 12px 24px;
-  color: ${cores.branco};
-  background-color: transparent;
-  border-radius: 8px;
-  border: 2px solid ${cores.roxo};
-  font-weight: 500;
-  margin-right: 16px; //remover
-  transition: background-color .5s ease;
-
-  &:hover {
-    background-color: ${cores.roxo};
-  }
-`
 export const ImagesContainer = styled.div`
   overflow-x: hidden;
   width: 100%;

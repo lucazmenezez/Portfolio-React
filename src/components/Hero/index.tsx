@@ -1,4 +1,5 @@
-import { ButtonPrimary, ButtonSecondary, Content, Description, HeroContainer, ImagesContainer, MainTitle, Row } from "./styles"
+import { ButtonPrimary, ButtonSecondary } from "../../styles"
+import { Content, Description, HeroContainer, ImagesContainer, MainTitle, Row } from "./styles"
 
 const Hero = () => (
   <HeroContainer id="home">
