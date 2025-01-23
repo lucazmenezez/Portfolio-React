@@ -1,4 +1,6 @@
 import About from "./components/About"
+import Contact from "./components/Contact"
+import Faq from "./components/Faq"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
@@ -21,6 +23,8 @@ function App() {
       <About />
       <Services />
       <Websites />
+      <Faq />
+      <Contact />
     </>
   )
 }
