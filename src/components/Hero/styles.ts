@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { cores } from "../../styles";
+import { breakpoints, cores } from "../../styles";
 
 export const HeroContainer = styled.div`
 `
@@ -22,6 +22,13 @@ export const Content = styled.div`
     background-color: ${cores.roxo};
     z-index: -1;
     filter: blur(180px);
+
+    @media (max-width: ${breakpoints.tablet}) {
+      width: 100%;
+      max-width: 100%;
+      height: 21rem;
+      left: 0;
+    }
   }
 `
 
@@ -30,12 +37,21 @@ export const MainTitle = styled.h1`
   font-weight: bold;
   text-transform: capitalize;
   line-height: 60px;
+
+  @media (max-width: ${breakpoints.tablet}) {
+    font-size: 36px;
+    line-height: 54px;
+  }
 `
 
 export const Description = styled.p`
   color: ${cores.cinza};
   font-weight: 400;
   margin: 16px 0 24px;
+
+  @media (max-width: ${breakpoints.tablet}) {
+    font-size: 14px;
+  }
 `
 
 export const ImagesContainer = styled.div`

@@ -44,4 +44,10 @@ export const Content = styled.div`
       height: auto;
     }
   }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    h2 {
+      font-size: 28px;
+    }
+  }
 `

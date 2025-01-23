@@ -18,6 +18,7 @@ export const TabButton = styled.div`
       transition: all .5s ease;
 
       span {
+        display: inline-block;
         background-color: ${cores.branco};
         color: ${cores.preto};
         border-radius: 12px;
@@ -33,6 +34,13 @@ export const TabButton = styled.div`
   .active {
     color: ${cores.branco};
     background-color: ${cores.roxo};
+  }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    ul {
+      flex-wrap: wrap;
+      row-gap: 12px;
+    }
   }
 `
 

@@ -6,6 +6,7 @@ export const ContactContainer = styled.div`
   grid-template-columns: 60% 40%;
   gap: 80px;
   padding: 80px 0 112px;
+  overflow-x: hidden;
 
   @media (max-width: ${breakpoints.desktop}) {
     grid-template-columns: 1fr;
@@ -28,6 +29,16 @@ export const ContactTitle = styled.div`
   p {
     font-size: 16px;
     color: ${cores.cinza};
+  }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+    }
   }
 `
 

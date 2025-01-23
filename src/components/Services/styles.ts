@@ -40,6 +40,13 @@ export const SectionTitle = styled.div`
   @media (max-width: ${breakpoints.desktop}) {
     margin-bottom: 60px;
   }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    h2 {
+      font-size: 28px;
+      line-height: 42px;
+    }
+  }
 `
 
 export const List = styled.ul`
@@ -47,6 +54,11 @@ export const List = styled.ul`
   grid-template-columns: repeat(2, 1fr);
   column-gap: 48px;
   row-gap: 64px;
+
+  @media (max-width: ${breakpoints.tablet}) {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
 `
 
 export const ListItem = styled.li`

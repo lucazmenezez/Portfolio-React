@@ -34,6 +34,10 @@ export const Title = styled.a`
   font-weight: bold;
   letter-spacing: 1px;
   color: ${cores.branco};
+
+  @media (max-width: ${breakpoints.tablet}) {
+    font-size: 18px;
+  }
 `
 
 export const List = styled.ul`

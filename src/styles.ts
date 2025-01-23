@@ -71,6 +71,16 @@ export const Title = styled.div`
   @media (max-width: ${breakpoints.desktop}) {
     max-width: 100%;
   }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
 `
 
 
