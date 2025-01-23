@@ -2,10 +2,14 @@ import styled, { createGlobalStyle } from "styled-components";
 
 export const cores = {
   branco: '#fff',
+  brancoOffWhite: '#F5F5F5',
   preto: '#000',
   cinza: '#AAB8C5',
+  cinza2: '#eee',
   roxo: '#6A0DAD',
-  azulEscuro: '#060417'
+  roxo2: '#8A2BE2',
+  azulEscuro: '#060417',
+  azulIntermediario: '#102A43'
 }
 
 export const breakpoints = {
@@ -39,7 +43,8 @@ export const GlobalStyle = createGlobalStyle`
 export const Title = styled.div`
   text-align: center;
   padding-bottom: 80px;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 768px;
 
   h3 {
     font-size: 14px;
@@ -70,6 +75,7 @@ export const ButtonPrimary = styled.a`
   border: 2px solid ${cores.roxo};
   font-weight: 500;
   cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(106, 13, 173, 0.5);
   transition: background-color .5s ease;
 
   &:hover {
@@ -87,6 +93,7 @@ export const ButtonSecondary = styled.a`
   font-weight: 500;
   cursor: pointer;
   margin-right: 16px; //remover
+  box-shadow: 0 4px 6px rgba(106, 13, 173, 0.5);
   transition: background-color .5s ease;
 
   &:hover {

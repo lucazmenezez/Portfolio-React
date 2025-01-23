@@ -5,8 +5,11 @@ const Websites = () => (
   <WebsitesContainer>
     <div className="container">
       <Title>
-        <h3>Sites</h3>
+        <h3>Tipos de Sites</h3>
         <h2>E qual site eu devo escolher?</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores inventore saepe voluptatum labore voluptatem, sequi neque tempora dolor quam earum rerum voluptate, velit fugit natus quibusdam quidem modi sed vel!
+        </p>
       </Title>
       <List>
         <ListItem>

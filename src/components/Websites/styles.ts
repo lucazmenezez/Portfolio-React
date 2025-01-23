@@ -12,16 +12,18 @@ export const List = styled.ul`
 `
 
 export const ListItem = styled.li`
-  border: 2px solid ${cores.roxo};
+  background-color: ${cores.azulIntermediario};
   padding: 16px;
   border-radius: 12px;
-  box-shadow: 0px 4px 6px rgba(106, 13, 173, 0.5);
+  box-shadow: 0px 4px 6px rgba(16, 42, 67, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  will-change: transform;
 
   span {
     font-size: 32px;
     font-weight: 900;
     letter-spacing: 2px;
-    color: ${cores.roxo};
+    color: ${cores.brancoOffWhite};
   }
 
   img {
@@ -38,7 +40,12 @@ export const ListItem = styled.li`
   }
 
   p {
-    color: ${cores.cinza};
+    color: ${cores.cinza2};
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(16, 42, 67, 0.7);
   }
 `
 
@@ -52,5 +59,11 @@ export const Cta = styled.div`
     max-width: 400px;
     width: 100%;
     text-align: center;
+    transition: background-color .5s ease, transform 0.5s ease-in-out;
+    will-change: transform;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 `
