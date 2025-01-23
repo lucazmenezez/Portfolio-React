@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { cores } from "../../styles";
+import { breakpoints, cores } from "../../styles";
 
 export const ReviewsContainer = styled.div`
   padding-bottom: 112px;
@@ -10,6 +10,10 @@ export const Card = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
+
+  @media (max-width: ${breakpoints.desktop}) {
+    display: block;
+  }
 `
 
 export const CardItem = styled.li`
@@ -26,6 +30,11 @@ export const CardItem = styled.li`
     color: ${cores.branco};
     font-weight: bold;
     letter-spacing: 1px;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    margin-bottom: 40px;
+    text-align: center;
   }
 `
 
@@ -54,5 +63,9 @@ export const InfosPerson = styled.div`
       font-size: 14px;
       color: ${cores.cinza};
     }
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    justify-content: center;
   }
 `

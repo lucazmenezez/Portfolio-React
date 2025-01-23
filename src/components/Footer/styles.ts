@@ -1,10 +1,14 @@
 import styled from "styled-components";
-import { cores } from "../../styles";
+import { breakpoints, cores } from "../../styles";
 
 export const FooterContainer = styled.footer`
   padding: 60px;
   background-color: ${cores.branco};
   color: ${cores.azulEscuro};
+
+  @media (max-width: ${breakpoints.desktop}) {
+    text-align: center;
+  }
 `
 
 export const FooterContent = styled.div`
@@ -21,6 +25,11 @@ export const PrimaryRow = styled.div`
   a {
     color: ${cores.azulEscuro};
   }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    flex-direction: column;
+    gap: 40px;
+  }
 `
 
 export const Links = styled.ul`
@@ -33,6 +42,14 @@ export const Links = styled.ul`
     color: ${cores.azulEscuro};
     font-weight: 500;
   }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    display: block;
+
+    li {
+      margin-bottom: 12px;
+    }
+  }
 `
 
 export const SocialLinks = styled(Links)`
@@ -41,6 +58,15 @@ export const SocialLinks = styled(Links)`
   i {
     color: ${cores.roxo};
     font-size: 18px;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    display: flex;
+    column-gap: 18px;
+
+    i {
+      font-size: 22px;
+    }
   }
 `
 

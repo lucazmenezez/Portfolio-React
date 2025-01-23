@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ButtonPrimary, cores } from "../../styles";
+import { breakpoints, ButtonPrimary, cores } from "../../styles";
 
 export const WebsitesContainer = styled.div`
   padding: 40px 0 112px;
@@ -9,6 +9,11 @@ export const List = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
+
+  @media (max-width: ${breakpoints.desktop}) {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
 `
 
 export const ListItem = styled.li`
@@ -47,6 +52,14 @@ export const ListItem = styled.li`
     transform: scale(1.05);
     box-shadow: 0px 6px 12px rgba(16, 42, 67, 0.7);
   }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    padding: 24px;
+
+    img {
+      margin: 16px 0;
+    }
+  }
 `
 
 export const Cta = styled.div`
@@ -64,6 +77,12 @@ export const Cta = styled.div`
 
     &:hover {
       transform: scale(1.05);
+    }
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    ${ButtonPrimary} {
+      max-width: 100%;
     }
   }
 `

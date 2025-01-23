@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { cores } from "../../styles";
+import { breakpoints, cores } from "../../styles";
 
 export const ServicesContainer = styled.div`
   padding: 112px 0;
@@ -9,6 +9,10 @@ export const Grid = styled.div`
   display: grid;
   grid-template-columns: 33% auto;
   column-gap: 80px;
+
+  @media (max-width: ${breakpoints.desktop}) {
+    display: block;
+  }
 `
 
 export const SectionTitle = styled.div`
@@ -31,6 +35,10 @@ export const SectionTitle = styled.div`
     line-height: 24px;
     color: ${cores.cinza};
     margin-bottom: 32px;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    margin-bottom: 60px;
   }
 `
 

@@ -37,6 +37,10 @@ export const GlobalStyle = createGlobalStyle`
     max-width: 1024px;
     margin: 0 auto;
     width: 100%;
+
+    @media (max-width: ${breakpoints.desktop}) {
+      max-width: 80%;
+    }
   }
 `
 
@@ -62,6 +66,10 @@ export const Title = styled.div`
     font-size: 16px;
     letter-spacing: 1px;
     color: ${cores.cinza};
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    max-width: 100%;
   }
 `
 

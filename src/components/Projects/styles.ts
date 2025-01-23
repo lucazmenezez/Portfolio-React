@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { cores } from "../../styles";
+import { breakpoints, cores } from "../../styles";
 
 export const ProjectsContainer = styled.div`
   background: ${cores.azulEscuro};
@@ -47,6 +47,11 @@ export const List = styled.ul`
 
   .show-content {
     display: block;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    display: block;
+    margin-bottom: 40px;
   }
 `
 
@@ -96,5 +101,9 @@ export const ListItem = styled.ul`
         margin-left: 8px;
       }
     }
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    margin-bottom: 40px;
   }
 `

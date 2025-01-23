@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { cores } from "../../styles";
+import { breakpoints, cores } from "../../styles";
 
 export const AboutContainer = styled.div`
   background-color: ${cores.azulEscuro};
@@ -33,5 +33,15 @@ export const Content = styled.div`
     max-width: 500px;
     max-height: 500px;
     display: block;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    display: block;
+
+    img {
+      margin: 40px auto 0;
+      max-width: 100%;
+      height: auto;
+    }
   }
 `

@@ -1,11 +1,16 @@
 import styled from "styled-components";
-import { cores } from "../../styles";
+import { breakpoints, cores } from "../../styles";
 
 export const ContactContainer = styled.div`
   display: grid;
   grid-template-columns: 60% 40%;
   gap: 80px;
   padding: 80px 0 112px;
+
+  @media (max-width: ${breakpoints.desktop}) {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
 `
 
 export const ContactTitle = styled.div`
