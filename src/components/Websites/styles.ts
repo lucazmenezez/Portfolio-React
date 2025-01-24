@@ -20,7 +20,7 @@ export const ListItem = styled.li`
   transition: transform 0.3s ease-in-out;
   will-change: transform;
   cursor: pointer;
-  box-shadow: 5px 5px 5px rgba(0,0,0, 0.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.06);
   position: relative;
 
   &:hover {

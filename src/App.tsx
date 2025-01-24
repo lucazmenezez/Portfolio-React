@@ -1,4 +1,5 @@
 import About from "./components/About"
+import BtnWpp from "./components/BtnWpp"
 import Contact from "./components/Contact"
 import Faq from "./components/Faq"
 import Footer from "./components/Footer"
@@ -25,6 +26,7 @@ function App() {
       <Faq />
       <Contact />
       <Footer />
+      <BtnWpp />
     </>
   )
 }
