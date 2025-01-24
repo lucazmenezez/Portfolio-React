@@ -1,8 +1,8 @@
 import { ButtonPrimary, Title } from "../../styles"
-import { Cta, List, ListItem, WebsitesContainer } from "./styles"
+import { BackgroundImage, Content, Cta, List, ListItem, WebsitesContainer } from "./styles"
 
 const Websites = () => (
-  <WebsitesContainer>
+  <WebsitesContainer id="websites">
     <div className="container">
       <Title>
         <h3>Tipos de Sites</h3>
@@ -13,34 +13,43 @@ const Websites = () => (
       </Title>
       <List>
         <ListItem>
-          <span>01</span>
-          <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
-          <h4>
-            Site Institucional
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum accusantium omnis dolores quae, eius obcaecati! Molestias nesciunt commodi laborum nobis nemo vero impedit enim, similique numquam, debitis voluptatibus deserunt.
-          </p>
+          <BackgroundImage style={{backgroundImage: `url(https://img.freepik.com/free-photo/blurred-soft-people-meeting-table-business-people-talking-modern-office-generative-ai_1258-150888.jpg?ga=GA1.1.1806739154.1732910747&semt=ais_hybrid)`}} >
+            <Content>
+              <span>01</span>
+              <h4>
+                Site Institucional
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum accusantium omnis dolores quae, eius obcaecati! Molestias nesciunt commodi laborum nobis nemo vero impedit enim, similique numquam, debitis voluptatibus deserunt.
+              </p>
+            </Content>
+          </BackgroundImage>
         </ListItem>
         <ListItem>
-          <span>02</span>
-          <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
-          <h4>
-            Landing Page
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum accusantium omnis dolores quae, eius obcaecati! Molestias nesciunt commodi laborum nobis nemo vero impedit enim, similique numquam, debitis voluptatibus deserunt.
-          </p>
+          <BackgroundImage style={{backgroundImage: `url(https://img.freepik.com/free-vector/modern-geometric-arrow-backdrop-business-presentation_1017-51541.jpg?ga=GA1.1.1806739154.1732910747)`}} >
+            <Content>
+              <span>02</span>
+              <h4>
+                Landing Page
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum accusantium omnis dolores quae, eius obcaecati! Molestias nesciunt commodi laborum nobis nemo vero impedit enim, similique numquam, debitis voluptatibus deserunt.
+              </p>
+            </Content>
+          </BackgroundImage>
         </ListItem>
         <ListItem>
-          <span>03</span>
-          <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
-          <h4>
-            E-commerce
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum accusantium omnis dolores quae, eius obcaecati! Molestias nesciunt commodi laborum nobis nemo vero impedit enim, similique numquam, debitis voluptatibus deserunt.
-          </p>
+          <BackgroundImage style={{backgroundImage: `url(https://img.freepik.com/free-psd/shopping-vertical-background_23-2150409471.jpg?ga=GA1.1.1806739154.1732910747&semt=ais_hybrid)`}} >
+            <Content>
+              <span>03</span>
+              <h4>
+                E-commerce
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum accusantium omnis dolores quae, eius obcaecati! Molestias nesciunt commodi laborum nobis nemo vero impedit enim, similique numquam, debitis voluptatibus deserunt.
+              </p>
+            </Content>
+          </BackgroundImage>
         </ListItem>
       </List>
       <Cta>

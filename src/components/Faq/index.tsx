@@ -36,7 +36,7 @@ const Faq = () => {
   ]
 
   return (
-    <div className="container">
+    <div className="container" id="faq">
       <FaqContainer>
         <Title>
           <h2>Perguntas Frequentes</h2>

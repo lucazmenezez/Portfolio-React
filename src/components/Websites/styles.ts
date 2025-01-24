@@ -17,25 +17,53 @@ export const List = styled.ul`
 `
 
 export const ListItem = styled.li`
-  background-color: ${cores.azulIntermediario};
-  padding: 16px;
-  border-radius: 12px;
-  box-shadow: 0px 4px 6px rgba(16, 42, 67, 0.5);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   will-change: transform;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.1);
+  position: relative;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+`
+
+export const BackgroundImage = styled.div`
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+    border-radius: 12px;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    padding: 32px;
+  }
+`
+
+export const Content = styled.div`
+  z-index: 1;
+  position: relative;
 
   span {
     font-size: 32px;
     font-weight: 900;
     letter-spacing: 2px;
-    color: ${cores.brancoOffWhite};
-  }
-
-  img {
-    width: 100%;
-    display: block;
-    border-radius: 12px;
-    margin: 8px 0;
+    color: ${cores.branco};
   }
 
   h4 {
@@ -46,19 +74,6 @@ export const ListItem = styled.li`
 
   p {
     color: ${cores.cinza2};
-  }
-
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 6px 12px rgba(16, 42, 67, 0.7);
-  }
-
-  @media (max-width: ${breakpoints.desktop}) {
-    padding: 24px;
-
-    img {
-      margin: 16px 0;
-    }
   }
 `
 

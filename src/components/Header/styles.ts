@@ -4,7 +4,6 @@ import { breakpoints, cores } from "../../styles";
 export const HeaderBar = styled.header`
   background-color: rgba(106, 13, 173, 0.4);
   color: ${cores.branco};
-  margin-bottom: 80px;
   border-radius: 12px;
 `
 
@@ -34,6 +33,12 @@ export const Title = styled.a`
   font-weight: bold;
   letter-spacing: 1px;
   color: ${cores.branco};
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   @media (max-width: ${breakpoints.tablet}) {
     font-size: 18px;
@@ -50,6 +55,13 @@ export const List = styled.ul`
   a {
     color: ${cores.branco};
     font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: color 0.5s ease, border 0.5s ease;
+
+    &:hover {
+      color: ${cores.cinza};
+      border-bottom: 2px solid ${cores.cinza};
+    }
   }
 
   @media (max-width: ${breakpoints.desktop}) {

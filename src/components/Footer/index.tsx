@@ -1,4 +1,4 @@
-import { FooterContainer, FooterContent, Links, PrimaryRow, SecondaryRow, SocialLinks } from "./styles"
+import { FooterContainer, FooterContent, LinkItem, Links, PrimaryRow, SecondaryRow, SocialLinks } from "./styles"
 
 const currentYear = new Date().getFullYear()
 
@@ -11,21 +11,21 @@ const Footer = () => (
             <h2>Lucas Menezes</h2>
           </a>
           <Links>
-            <li>
+            <LinkItem>
               <a href="#">Dúvidas</a>
-            </li>
-            <li>
+            </LinkItem>
+            <LinkItem>
               <a href="#">Projetos</a>
-            </li>
-            <li>
+            </LinkItem>
+            <LinkItem>
               <a href="#">Serviços</a>
-            </li>
-            <li>
+            </LinkItem>
+            <LinkItem>
               <a href="#">Sobre</a>
-            </li>
-            <li>
+            </LinkItem>
+            <LinkItem>
               <a href="#">Sites</a>
-            </li>
+            </LinkItem>
           </Links>
           <SocialLinks>
             <li>

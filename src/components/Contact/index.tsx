@@ -1,7 +1,7 @@
 import { ContactContainer, ContactList, ContactTitle, ListItem } from "./styles"
 
 const Contact = () => (
-  <div className="container">
+  <div className="container" id="contact">
     <ContactContainer>
       <ContactTitle>
         <h3>Contato</h3>

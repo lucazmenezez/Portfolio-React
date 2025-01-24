@@ -15,9 +15,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <div className="container">
-        <Header />
-      </div>
+      <Header />
       <Hero />
       <Projects />
       <Reviews />

@@ -24,6 +24,12 @@ export const PrimaryRow = styled.div`
 
   a {
     color: ${cores.azulEscuro};
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   @media (max-width: ${breakpoints.desktop}) {
@@ -38,11 +44,6 @@ export const Links = styled.ul`
   justify-content: space-between;
   column-gap: 32px;
 
-  a {
-    color: ${cores.azulEscuro};
-    font-weight: 500;
-  }
-
   @media (max-width: ${breakpoints.desktop}) {
     display: block;
 
@@ -52,12 +53,31 @@ export const Links = styled.ul`
   }
 `
 
+export const LinkItem = styled.li`
+  color: ${cores.azulEscuro};
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: color .5s ease, border .5s ease;
+
+  &:hover {
+    border-bottom: 2px solid ${cores.azulEscuro};
+  }
+`
+
 export const SocialLinks = styled(Links)`
   column-gap: 12px;
 
   i {
     color: ${cores.roxo};
-    font-size: 18px;
+    font-size: 20px;
+    transition: transform 0.5s ease;
+    will-change: transform;
+  }
+
+  li {
+    &:hover i {
+      transform: translateY(-8px);
+    }
   }
 
   @media (max-width: ${breakpoints.desktop}) {

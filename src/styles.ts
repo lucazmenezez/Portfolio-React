@@ -27,6 +27,10 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: ${cores.azulEscuro};
     color: ${cores.branco};
@@ -110,7 +114,6 @@ export const ButtonSecondary = styled.a`
   border: 2px solid ${cores.roxo};
   font-weight: 500;
   cursor: pointer;
-  margin-right: 16px; //remover
   box-shadow: 0 4px 6px rgba(106, 13, 173, 0.5);
   transition: background-color .5s ease;
 

@@ -2,7 +2,7 @@ import { ButtonSecondary } from "../../styles"
 import { Grid, List, ListItem, SectionTitle, ServicesContainer } from "./styles"
 
 const Services = () => (
-  <div className="container">
+  <div className="container" id="services">
     <ServicesContainer>
       <Grid>
         <SectionTitle>

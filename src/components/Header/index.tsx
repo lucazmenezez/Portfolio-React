@@ -5,9 +5,9 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <HeaderBar>
+    <HeaderBar id="home" className="container">
       <HeaderContainer>
-        <Title href="#home">Lucas Menezes</Title>
+        <Title href="#home">Lucas <span>Menezes</span></Title>
         <Hamburguer onClick={() => setMenuOpen(!menuOpen)}>
           <span></span>
           <span></span>

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { breakpoints, cores } from "../../styles";
 
 export const HeroContainer = styled.div`
+  margin-top: 80px;
 `
 
 export const Content = styled.div`
@@ -82,5 +83,16 @@ export const Row = styled.div`
 
   &:nth-child(2) {
     transform: translateX(-220px);
+  }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    img {
+      height: 168px;
+      width: 206px;
+    }
+
+    &:nth-child(2) {
+      transform: translateX(-41px);
+    }
   }
 `

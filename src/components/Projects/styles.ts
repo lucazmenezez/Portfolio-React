@@ -66,10 +66,18 @@ export const List = styled.ul`
 export const ListItem = styled.ul`
   border: 2px solid ${cores.branco};
   position: relative;
+  transition: transform .5s ease;
 
   img {
     width: 100%;
     display: block;
+    cursor: zoom-in;
+    opacity: 1;
+    transition: opacity .5s ease;
+
+    &:hover {
+      opacity: .5;
+    }
   }
 
   span {
@@ -107,6 +115,11 @@ export const ListItem = styled.ul`
 
       i {
         margin-left: 8px;
+        transition: transform .5s ease;
+      }
+
+      &:hover i {
+        transform: translateX(8px);
       }
     }
   }
