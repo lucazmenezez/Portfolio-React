@@ -53,10 +53,6 @@ export const List = styled.ul`
     display: none;
   }
 
-  .show-content {
-    display: block;
-  }
-
   @media (max-width: ${breakpoints.desktop}) {
     display: block;
     margin-bottom: 40px;
@@ -70,14 +66,11 @@ export const ListItem = styled.ul`
 
   img {
     width: 100%;
+    height: 340px;
+    object-fit: cover;
     display: block;
-    cursor: zoom-in;
     opacity: 1;
     transition: opacity .5s ease;
-
-    &:hover {
-      opacity: .5;
-    }
   }
 
   span {

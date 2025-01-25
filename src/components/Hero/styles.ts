@@ -72,27 +72,27 @@ export const Row = styled.div`
   img {
     display: block;
     border-radius: 12px;
-    height: 340px;
-    width: 416px;
+    height: 410px;
+    width: 450px;
     object-fit: cover;
   }
 
   &:nth-child(1) {
-    transform: translateX(-100px);
+    transform: translateX(-150px);
   }
 
   &:nth-child(2) {
     transform: translateX(-220px);
   }
 
-  @media (max-width: ${breakpoints.tablet}) {
+  @media (max-width: ${breakpoints.desktop}) {
     img {
-      height: 168px;
-      width: 206px;
+      height: 360px;
+      width: 400px;
     }
 
-    &:nth-child(2) {
-      transform: translateX(-41px);
+    &:nth-child(1) {
+      transform: translateX(-520px);
     }
   }
 `
