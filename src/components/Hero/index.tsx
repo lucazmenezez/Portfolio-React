@@ -1,5 +1,5 @@
 import { ButtonPrimary } from "../../styles"
-import { Content, Description, HeroContainer, ImagesContainer, MainTitle, Row } from "./styles"
+import { ContainerFlex, Content, Description, HeroContainer, ImagesContainer, MainTitle, Row, Status } from "./styles"
 
 import cover_souza_ternos from '../../assets/images/capa_souza-ternos.png'
 import cover_lp_ac from '../../assets/images/capa_lp_alta-conversao.png'
@@ -20,9 +20,15 @@ const Hero = () => (
       <Content>
         <MainTitle>Transforme suas ideias em <span>designs incríveis</span></MainTitle>
         <Description>Sou um designer freelancer especializado em criar sites que não apenas atraem, mas também convertem. Explore meu portfólio e descubra como posso ajudar a dar vida à sua visão.</Description>
-        <div>
+        <ContainerFlex>
           <ButtonPrimary href="#projects">Veja Meu Portfólio</ButtonPrimary>
-        </div>
+          <Status>
+            <span className="status-icon"></span>
+            <span>
+                Disponível para trabalho
+            </span>
+          </Status>
+        </ContainerFlex>
       </Content>
     </div>
     <ImagesContainer>

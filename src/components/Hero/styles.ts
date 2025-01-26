@@ -111,6 +111,39 @@ export const Description = styled.p`
   }
 `
 
+export const ContainerFlex = styled.div`
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 16px;
+
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`
+
+export const Status = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: ${cores.cinza2};
+
+  .status-icon {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #4CAF50; /* Verde para disponibilidade */
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.6); /* Efeito de brilho */
+  }
+
+  span {
+    display: block;
+  }
+`
+
 export const ImagesContainer = styled.div`
   overflow-x: hidden;
   width: 100%;
