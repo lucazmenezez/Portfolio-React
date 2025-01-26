@@ -3,6 +3,62 @@ import { breakpoints, cores } from "../../styles";
 
 export const HeroContainer = styled.div`
   margin-top: 80px;
+  position: relative;
+
+  .icon1 {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    height: 48px;
+    width: 48px;
+    display: block;
+  }
+
+  .icon2 {
+    position: absolute;
+    top: 0;
+    right: 110px;
+    height: 48px;
+    width: 48px;
+    display: block;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    .icon1 {
+      left: 40px;
+    }
+
+    .icon2 {
+      top: -25px;
+      right: 40px;
+    }
+  }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    .icon1 {
+      left: 5px;
+      height: 32px;
+      width: 32px;
+    }
+
+    .icon2 {
+      top: -20px;
+      right: 18px;
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  //telas grandes
+  @media (min-width: 1260px) {
+    .icon1 {
+      left: 228px;
+    }
+
+    .icon2 {
+      right: 228px;
+    }
+  }
 `
 
 export const Content = styled.div`
