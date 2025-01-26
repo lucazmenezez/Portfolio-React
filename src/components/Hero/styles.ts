@@ -117,7 +117,6 @@ export const ContainerFlex = styled.div`
   justify-content: center;
   gap: 16px;
 
-
   @media (max-width: 480px) {
     flex-direction: column;
     align-items: center;
