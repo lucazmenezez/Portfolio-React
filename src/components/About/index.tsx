@@ -1,5 +1,7 @@
 import { AboutContainer, Content } from "./styles"
 
+import personal_image from '../../assets/images/imagem_pessoal.jpg'
+
 const About = () => (
   <AboutContainer id="about">
     <div className="container">
@@ -15,7 +17,7 @@ const About = () => (
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minima qui voluptas vero, quae excepturi possimus vitae, voluptatum maiores consequatur inventore distinctio beatae suscipit ipsa nulla sit architecto quisquam nisi!
           </p>
         </div>
-        <img src="https://produtos.grupoacofer.com.br/wp-content/uploads/2022/05/placeholder-239.png" alt="placeholder" />
+        <img src={personal_image} alt="Foto de rosto do Lucas Menezes" />
       </Content>
     </div>
   </AboutContainer>

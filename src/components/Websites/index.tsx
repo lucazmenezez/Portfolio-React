@@ -1,6 +1,10 @@
 import { ButtonPrimary, Title } from "../../styles"
 import { BackgroundImage, Content, Cta, List, ListItem, WebsitesContainer } from "./styles"
 
+import office_work from '../../assets/images/office_work.jpg'
+import conversion_graphic from '../../assets/images/conversion_graphic.jpg'
+import ecommerce from '../../assets/images/ecommerce.jpg'
+
 const Websites = () => (
   <WebsitesContainer id="websites">
     <div className="container">
@@ -13,7 +17,7 @@ const Websites = () => (
       </Title>
       <List>
         <ListItem>
-          <BackgroundImage style={{backgroundImage: `url(https://img.freepik.com/free-photo/blurred-soft-people-meeting-table-business-people-talking-modern-office-generative-ai_1258-150888.jpg?ga=GA1.1.1806739154.1732910747&semt=ais_hybrid)`}} >
+          <BackgroundImage style={{backgroundImage: `url(${office_work})`}} >
             <Content>
               <span>01</span>
               <h4>
@@ -26,7 +30,7 @@ const Websites = () => (
           </BackgroundImage>
         </ListItem>
         <ListItem>
-          <BackgroundImage style={{backgroundImage: `url(https://img.freepik.com/free-vector/modern-geometric-arrow-backdrop-business-presentation_1017-51541.jpg?ga=GA1.1.1806739154.1732910747)`}} >
+          <BackgroundImage style={{backgroundImage: `url(${conversion_graphic})`}} >
             <Content>
               <span>02</span>
               <h4>
@@ -39,7 +43,7 @@ const Websites = () => (
           </BackgroundImage>
         </ListItem>
         <ListItem>
-          <BackgroundImage style={{backgroundImage: `url(https://img.freepik.com/free-psd/shopping-vertical-background_23-2150409471.jpg?ga=GA1.1.1806739154.1732910747&semt=ais_hybrid)`}} >
+          <BackgroundImage style={{backgroundImage: `url(${ecommerce})`}} >
             <Content>
               <span>03</span>
               <h4>
