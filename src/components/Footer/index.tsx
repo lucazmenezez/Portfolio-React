@@ -12,44 +12,44 @@ const Footer = () => (
           </a>
           <Links>
             <LinkItem>
-              <a href="#">Dúvidas</a>
+              <a href="#faq">Dúvidas</a>
             </LinkItem>
             <LinkItem>
-              <a href="#">Projetos</a>
+              <a href="#projects">Projetos</a>
             </LinkItem>
             <LinkItem>
-              <a href="#">Serviços</a>
+              <a href="#services">Serviços</a>
             </LinkItem>
             <LinkItem>
-              <a href="#">Sobre</a>
+              <a href="#about">Sobre</a>
             </LinkItem>
             <LinkItem>
-              <a href="#">Sites</a>
+              <a href="#websites">Sites</a>
             </LinkItem>
           </Links>
           <SocialLinks>
             <li>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/lucas-menezes-39b310256/" target="_blank">
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="mailto:menezeslucas24082002@gmail.com?subject=Olá!&body=Gostaria de saber mais sobre os seus serviços." target="_blank">
                 <i className="fas fa-envelope"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="fab fa-whatsapp"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
+              <a href="https://github.com/lucazmenezez" target="_blank">
                 <i className="fab fa-github"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://dribbble.com/" target="_blank" >
+                <i className="fab fa-dribbble"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/" target="_blank">
                 <i className="fab fa-behance"></i>
               </a>
             </li>

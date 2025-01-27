@@ -6,21 +6,6 @@ export const FaqContainer = styled.div`
   padding-top: 40px;
   max-width: 768px;
   margin: 0 auto;
-  position: relative;
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 200px;
-    left: -400px;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50%;
-    background-color: ${cores.roxo};
-    z-index: -1;
-    filter: blur(180px);
-    opacity: 0.6;
-  }
 `
 
 export const Accordion = styled.div`

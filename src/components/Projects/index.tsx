@@ -23,70 +23,80 @@ const Projects = () => {
       category: 'E-commerce',
       title: 'E-commerce Eplay',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.',
-      image: cover_eplay
+      image: cover_eplay,
+      link: 'https://ecommerce-eplay-two.vercel.app/'
     },
     {
       id: 2,
       category: "Site Institucional",
       title: "Site Souza Ternos",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
-      image: cover_souza_ternos
+      image: cover_souza_ternos,
+      link: '#'
     },
     {
       id: 3,
       category: "Landing Page",
       title: "Landing Page de Alta Conversão",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
-      image: cover_lp_ac
+      image: cover_lp_ac,
+      link: 'https://sandybrown-starling-750020.hostingersite.com/'
     },
     {
       id: 4,
       category: "E-commerce",
       title: "E-commerce Efood",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
-      image: cover_efood
+      image: cover_efood,
+      link: 'https://efood-rose-eight.vercel.app/'
     },
     {
       id: 5,
       category: "Site Institucional",
       title: "Site Modelo Para Advogados",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
-      image: cover_lawyer
+      image: cover_lawyer,
+      link: '#'
     },
     {
       id: 6,
       category: "Site Institucional",
       title: "Site Modelo Para Barbearias",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
-      image: cover_barber
+      image: cover_barber,
+      link: 'https://site-modelo-barbearia.vercel.app/'
     },
     {
       id: 7,
       category: "Site Institucional",
       title: "Site De Portfólio",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
-      image: cover_portfolio
+      image: cover_portfolio,
+      link: 'https://sitepronto.vercel.app/'
     },
     {
       id: 8,
       category: "Site Institucional",
       title: "Site De Restaurante",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
-      image: cover_restaurant
+      image: cover_restaurant,
+      link: 'https://lucas-projeto-restaurante.vercel.app/'
     },
     {
       id: 9,
       category: "Site Institucional",
       title: "Site Clone Do Disney+",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
-      image: cover_clone_dp
+      image: cover_clone_dp,
+      link: 'https://clone-disneyplus-one-rho.vercel.app/'
     },
     {
       id: 10,
       category: "Landing Page",
       title: "Landing Page Para Venda de Serviços",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
-      image: cover_lp
+      image: cover_lp,
+      link: 'https://landing-page-vendas-pi.vercel.app/'
     }
   ]
 
@@ -130,7 +140,7 @@ const Projects = () => {
                   <p>
                     {project.description}
                   </p>
-                  <a href="#">
+                  <a href={project.link || "#"} target="_blank">
                     Ver Projeto
                     <i className="fas fa-arrow-right"></i>
                   </a>

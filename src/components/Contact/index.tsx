@@ -16,14 +16,14 @@ const Contact = () => (
             <i className="fas fa-envelope"></i>
             <h4>E-mail</h4>
           </div>
-          <span>contato@gmail.com</span>
+          <span>menezeslucas24082002@gmail.com</span>
         </ListItem>
         <ListItem>
           <div>
             <i className="fas fa-phone"></i>
             <h4>Telefone</h4>
           </div>
-          <span>(41) 998765432</span>
+          <span>(41) 984589855</span>
         </ListItem>
         <ListItem>
           <div>
