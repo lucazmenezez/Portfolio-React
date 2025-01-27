@@ -82,6 +82,7 @@ export const ListItem = styled.li`
     background-color: ${cores.roxo};
     padding: 24px;
     border-radius: 12px;
+    box-shadow: 0 0 4px ${cores.roxo2};
 
     i {
       color: ${cores.branco};

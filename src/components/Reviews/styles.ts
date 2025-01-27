@@ -4,6 +4,7 @@ import { breakpoints, cores } from "../../styles";
 export const ReviewsContainer = styled.div`
   padding-bottom: 112px;
   background: linear-gradient(${cores.azulEscuro}, ${cores.roxo});
+  border-radius: 0 0 24px 24px;
 `
 
 export const Card = styled.ul`

@@ -3,8 +3,8 @@ import { breakpoints, cores } from "../../styles";
 
 export const FooterContainer = styled.footer`
   padding: 60px;
-  background-color: ${cores.branco};
-  color: ${cores.azulEscuro};
+  background-color: ${cores.azulIntermediario};
+  color: ${cores.brancoOffWhite};
 
   @media (max-width: ${breakpoints.desktop}) {
     text-align: center;
@@ -23,7 +23,7 @@ export const PrimaryRow = styled.div`
   justify-content: space-between;
 
   a {
-    color: ${cores.azulEscuro};
+    color: ${cores.brancoOffWhite};
     transition: transform 0.5s ease-in-out;
     will-change: transform;
 
@@ -54,13 +54,13 @@ export const Links = styled.ul`
 `
 
 export const LinkItem = styled.li`
-  color: ${cores.azulEscuro};
+  color: ${cores.brancoOffWhite};
   font-weight: 500;
   border-bottom: 2px solid transparent;
   transition: color .5s ease, border .5s ease;
 
   &:hover {
-    border-bottom: 2px solid ${cores.azulEscuro};
+    border-bottom: 2px solid ${cores.brancoOffWhite};
   }
 `
 
@@ -68,7 +68,7 @@ export const SocialLinks = styled(Links)`
   column-gap: 12px;
 
   i {
-    color: ${cores.roxo};
+    color: ${cores.branco};
     font-size: 20px;
     transition: transform 0.5s ease;
     will-change: transform;
@@ -92,7 +92,7 @@ export const SocialLinks = styled(Links)`
 
 export const SecondaryRow = styled.div`
   text-align: center;
-  border-top: 1px solid ${cores.azulEscuro};
+  border-top: 1px solid ${cores.brancoOffWhite};
   padding-top: 32px;
 
   p {

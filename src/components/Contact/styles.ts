@@ -15,6 +15,7 @@ export const ContactContainer = styled.div`
 `
 
 export const ContactTitle = styled.div`
+
   h3 {
     font-size: 14px;
     color: ${cores.roxo};

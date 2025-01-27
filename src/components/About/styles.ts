@@ -1,9 +1,31 @@
 import styled from "styled-components";
 import { breakpoints, cores } from "../../styles";
+import waves_background from '../../assets/images/waves_background.jpg'
 
 export const AboutContainer = styled.div`
   background-color: ${cores.azulEscuro};
   padding: 112px 0;
+  background-image: url(${waves_background});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(6, 4, 23, 0.8);
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
 `
 
 export const Content = styled.div`
@@ -36,6 +58,7 @@ export const Content = styled.div`
     width: 100%;
     max-height: 500px;
     display: block;
+    box-shadow: 0 0 4px ${cores.branco};
   }
 
   @media (max-width: ${breakpoints.desktop}) {

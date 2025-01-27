@@ -2,14 +2,14 @@ import styled, { createGlobalStyle } from "styled-components";
 
 export const cores = {
   branco: '#fff',
-  brancoOffWhite: '#F5F5F5',
+  brancoOffWhite: '#A7A7A7',
   preto: '#000',
   cinza: '#AAB8C5',
   cinza2: '#eee',
   roxo: '#6A0DAD',
-  roxo2: '#8A2BE2',
+  roxo2: '#572276',
   azulEscuro: '#060417',
-  azulIntermediario: '#102A43'
+  azulIntermediario: '#0D0934'
 }
 
 export const breakpoints = {

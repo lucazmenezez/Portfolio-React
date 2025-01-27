@@ -4,6 +4,27 @@ import { breakpoints, cores } from "../../styles";
 export const ProjectsContainer = styled.div`
   background: ${cores.azulEscuro};
   padding: 112px 0;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: -100px;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background-color: ${cores.roxo};
+    z-index: 0;
+    filter: blur(180px);
+    opacity: .6;
+  }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    &::after {
+      display: none;
+    }
+  }
 `
 
 export const TabButton = styled.div`
@@ -46,7 +67,7 @@ export const TabButton = styled.div`
 
 export const List = styled.ul`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 32px;
 
   .content {
@@ -66,7 +87,7 @@ export const ListItem = styled.ul`
 
   img {
     width: 100%;
-    height: 340px;
+    height: auto;
     object-fit: cover;
     display: block;
     opacity: 1;

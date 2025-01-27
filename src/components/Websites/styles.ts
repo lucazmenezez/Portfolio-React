@@ -3,6 +3,8 @@ import { breakpoints, ButtonPrimary, cores } from "../../styles";
 
 export const WebsitesContainer = styled.div`
   padding: 40px 0 112px;
+  background-color: ${cores.azulIntermediario};
+  border-radius: 24px 24px 0 0;
 `
 
 export const List = styled.ul`
