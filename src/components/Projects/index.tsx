@@ -22,7 +22,7 @@ const Projects = () => {
       id: 1,
       category: 'E-commerce',
       title: 'E-commerce Eplay',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.',
+      description: 'Uma loja virtual de jogos de videogame, desenvolvida com React e Typescript. Esse projeto foi criado durante o módulo de Front-end do curso na EBAC, com todas as funcionalidades essenciais de um e-commerce para uma experiência de compra eficiente e dinâmica.',
       image: cover_eplay,
       link: 'https://ecommerce-eplay-two.vercel.app/'
     },
@@ -30,7 +30,7 @@ const Projects = () => {
       id: 2,
       category: "Site Institucional",
       title: "Site Souza Ternos",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
+      description: "Meu primeiro site para um cliente real, desenvolvido do zero com HTML, SASS e Bootstrap. O site apresenta os produtos da loja, incluindo ternos e roupas sociais. Embora o cliente ainda esteja avaliando a melhor forma de prosseguir, o site já está 95% pronto para ser publicado online.",
       image: cover_souza_ternos,
       link: '#'
     },
@@ -38,7 +38,7 @@ const Projects = () => {
       id: 3,
       category: "Landing Page",
       title: "Landing Page de Alta Conversão",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
+      description: "Landing Page com layout de Alta Conversão criada com Wordpress e Elementor, para vender produtos digitais",
       image: cover_lp_ac,
       link: 'https://sandybrown-starling-750020.hostingersite.com/'
     },
@@ -113,7 +113,7 @@ const Projects = () => {
         <Title>
           <h3>Portfólio</h3>
           <h2>Meus Projetos</h2>
-          <p>Explore nossa galeria de projetos concluídos.</p>
+          <p>Confira alguns dos projetos que desenvolvi durante minha jornada como desenvolvedor.</p>
         </Title>
         <div>
           <TabButton>

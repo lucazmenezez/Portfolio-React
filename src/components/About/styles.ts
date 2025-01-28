@@ -30,9 +30,7 @@ export const AboutContainer = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  gap: 80px;
-  max-width: 800px;
-  margin: 0 auto;
+  gap: 100px;
 
   h3 {
     font-size: 16px;
@@ -54,7 +52,6 @@ export const Content = styled.div`
   img {
     border-radius: 12px;
     object-fit: cover;
-    max-width: 500px;
     width: 100%;
     max-height: 500px;
     display: block;

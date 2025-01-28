@@ -5,9 +5,9 @@ const Reviews = () => (
   <ReviewsContainer id="reviews">
     <div className="container">
       <Title>
-        <h2>Depoimentos de Clientes</h2>
+        <h2>O Que Dizem Sobre Meu Trabalho</h2>
         <p>
-          Nossos clientes falam sobre a qualidade do nosso trabalho.
+          Confira o que meus clientes têm a dizer sobre a experiência e o resultado que entrego.
         </p>
       </Title>
       <Card>

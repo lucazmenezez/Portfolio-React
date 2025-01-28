@@ -18,14 +18,16 @@ const Hero = () => (
       <img className="icon1" src={icon_glow} alt="" />
       <img className="icon2" src={icon_sparkles} alt="" />
       <Content>
-        <MainTitle>Transforme suas ideias em <span>designs incríveis</span></MainTitle>
-        <Description>Sou um designer freelancer especializado em criar sites que não apenas atraem, mas também convertem. Explore meu portfólio e descubra como posso ajudar a dar vida à sua visão.</Description>
+        <MainTitle>Desenvolvedor e Website Designer Freelancer.</MainTitle>
+        <Description>Sou um desenvolvedor freelancer especializado em criar sites atraentes, responsivos e funcionais. Explore meu portfólio e descubra como posso ajudar a dar vida à sua visão.</Description>
         <ContainerFlex>
-          <ButtonPrimary href="#projects">Veja Meu Portfólio</ButtonPrimary>
+          <ButtonPrimary href="#projects">
+            Veja Meus Projetos
+          </ButtonPrimary>
           <Status>
             <span className="status-icon"></span>
             <span>
-                Disponível para trabalho
+              Disponível para trabalho
             </span>
           </Status>
         </ContainerFlex>

@@ -10,9 +10,9 @@ const Websites = () => (
     <div className="container">
       <Title>
         <h3>Tipos de Sites</h3>
-        <h2>E qual site eu devo escolher?</h2>
+        <h2>Qual Tipo de Site é Ideal para o Seu Negócio?</h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores inventore saepe voluptatum labore voluptatem, sequi neque tempora dolor quam earum rerum voluptate, velit fugit natus quibusdam quidem modi sed vel!
+          Descubra qual solução atende melhor às suas necessidades, seja para um site institucional, landing page ou e-commerce.
         </p>
       </Title>
       <List>
@@ -24,7 +24,7 @@ const Websites = () => (
                 Site Institucional
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum accusantium omnis dolores quae, eius obcaecati! Molestias nesciunt commodi laborum nobis nemo vero impedit enim, similique numquam, debitis voluptatibus deserunt.
+                Um site institucional é a base para sua presença online, ideal para apresentar sua empresa/negócio, valores e serviços de forma clara e profissional. Ele é perfeito para quem deseja uma página funcional, com design moderno, responsivo e fácil de navegar.
               </p>
             </Content>
           </BackgroundImage>
@@ -37,7 +37,7 @@ const Websites = () => (
                 Landing Page
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum accusantium omnis dolores quae, eius obcaecati! Molestias nesciunt commodi laborum nobis nemo vero impedit enim, similique numquam, debitis voluptatibus deserunt.
+                Landing pages são projetadas para conversões. Se você tem um objetivo específico, como captar leads ou promover um produto, essa é a solução ideal. Com um layout simples e objetivo, ela foca em uma chamada à ação para garantir resultados rápidos.
               </p>
             </Content>
           </BackgroundImage>
@@ -50,7 +50,7 @@ const Websites = () => (
                 E-commerce
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum accusantium omnis dolores quae, eius obcaecati! Molestias nesciunt commodi laborum nobis nemo vero impedit enim, similique numquam, debitis voluptatibus deserunt.
+                Se o seu objetivo é vender online, o e-commerce é a escolha certa. Criamos lojas virtuais seguras e de fácil navegação, com sistemas de pagamento integrados, design responsivo e otimização para uma excelente experiência de compra.
               </p>
             </Content>
           </BackgroundImage>

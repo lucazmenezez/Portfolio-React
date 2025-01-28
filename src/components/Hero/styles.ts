@@ -92,7 +92,6 @@ export const Content = styled.div`
 export const MainTitle = styled.h1`
   font-size: 48px;
   font-weight: bold;
-  text-transform: capitalize;
   line-height: 60px;
 
   @media (max-width: ${breakpoints.tablet}) {
@@ -117,7 +116,7 @@ export const ContainerFlex = styled.div`
   justify-content: center;
   gap: 16px;
 
-  @media (max-width: 480px) {
+  @media (max-width: 540px) {
     flex-direction: column;
     align-items: center;
   }

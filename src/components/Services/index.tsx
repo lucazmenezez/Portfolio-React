@@ -7,12 +7,12 @@ const Services = () => (
       <Grid>
         <SectionTitle>
           <h3>Serviços</h3>
-          <h2>Nossos Serviços de Design de Websites</h2>
+          <h2>Criação de Sites Personalizados Para o Seu Negócio</h2>
           <p>
-            Oferecemos soluções de design de websites personalizadas que atendem às suas necessidades específicas. Nossos serviços garantem uma presença online atraente e funcional.
+            Oferecemos soluções de design de websites adaptadas às suas necessidades, garantindo uma presença online atraente, funcional e que ajuda seu negócio a crescer.
           </p>
           <ButtonSecondary href="https://api.whatsapp.com/send?phone=5541984589855&text=Olá, Lucas! Quero tirar algumas dúvidas sobre os seus serviços." target="_blank">
-            Conversar Com Especialista
+            Conversar Com o Especialista
           </ButtonSecondary>
         </SectionTitle>
         <List>
@@ -27,21 +27,21 @@ const Services = () => (
             <i className="fas fa-palette"></i>
             <h4>Design</h4>
             <p>
-              Layouts criativos e personalizados para destacar sua marca no mercado.
+              Layouts personalizados que refletem sua identidade e destacam sua marca no mercado.
             </p>
           </ListItem>
           <ListItem>
             <i className="fas fa-file-alt"></i>
             <h4>Conteúdo</h4>
             <p>
-              Produção de textos e materiais que comunicam efetivamente com o seu público.
+              Caso você não tenha todos os materiais prontos, oferecemos produção de textos e imagens que comunicam sua mensagem de forma clara e eficaz.
             </p>
           </ListItem>
           <ListItem>
             <i className="fas fa-wrench"></i>
             <h4>Manutenção</h4>
             <p>
-              Garantimos que seu site esteja sempre atualizado e funcionando perfeitamente.
+              Garantimos que seu site esteja sempre atualizado e funcionando. Este serviço é cobrado separadamente, conforme a necessidade.
             </p>
           </ListItem>
         </List>

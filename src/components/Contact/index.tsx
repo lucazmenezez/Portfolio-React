@@ -5,9 +5,9 @@ const Contact = () => (
     <ContactContainer>
       <ContactTitle>
         <h3>Contato</h3>
-        <h2>Entre em Contato</h2>
+        <h2>Vamos Conversar?</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt, neque suscipit ipsam illum ullam beatae ipsum? Deleniti, maxime quam doloremque quasi nam officiis voluptate, sit possimus explicabo magnam amet.
+          Fale conosco para tirar suas dúvidas, pedir mais informações ou iniciar seu projeto de site. Estamos aqui para ajudar você a dar o próximo passo no mundo digital.
         </p>
       </ContactTitle>
       <ContactList>
@@ -28,7 +28,7 @@ const Contact = () => (
         <ListItem>
           <div>
             <i className="fas fa-headset"></i>
-            <h4>Atendimento</h4>
+            <h4>Atendimento Via Whatsapp</h4>
           </div>
           <span>24h por dia, todos os dias da semana!</span>
         </ListItem>

@@ -8,13 +8,16 @@ const About = () => (
       <Content>
         <div>
           <h3>Sobre Mim</h3>
-          <h2>Olá, me chamo Lucas Menezes e sou <span>Web Designer.</span></h2>
+          <h2>Olá, Sou Lucas Menezes, <span>Desenvolvedor e Web Designer Freelancer.</span></h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquid dolores rerum sint, nobis, possimus nemo fuga labore consectetur delectus aut, asperiores facilis quo ullam vel? Obcaecati culpa quis est.
+            Sou freelancer especializado em desenvolvimento de sites, tenho 22 anos e sou de Curitiba, PR. Atualmente, estou cursando Desenvolvimento Full Stack Python na EBAC – Escola Britânica de Artes Criativas e Tecnologia, onde descobri meu interesse por criação de sites e web design.          </p>
+          <br />
+          <p>
+            Estou no início da minha carreira, mas sou movido pela vontade constante de aprender e evoluir. Meu foco é oferecer soluções personalizadas que atendam às necessidades dos meus clientes e ajudem seus negócios a crescer e se destacar no mundo digital.
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minima qui voluptas vero, quae excepturi possimus vitae, voluptatum maiores consequatur inventore distinctio beatae suscipit ipsa nulla sit architecto quisquam nisi!
+            Se você tem uma ideia e procura alguém para tirar seu projeto do papel, entre em contato comigo pelo WhatsApp. Será um prazer conversar e transformar sua visão em realidade!
           </p>
         </div>
         <img src={personal_image} alt="Foto de rosto do Lucas Menezes" />

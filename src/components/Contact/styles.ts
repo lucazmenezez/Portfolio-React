@@ -67,5 +67,6 @@ export const ListItem = styled.li`
   span {
     font-size: 16px;
     color: #ccc;
+    flex-wrap: wrap;
   }
 `
