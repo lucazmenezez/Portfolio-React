@@ -8,7 +8,7 @@ const About = () => (
       <Content>
         <div>
           <h3>Sobre Mim</h3>
-          <h2>Olá, Sou Lucas Menezes, <span>Desenvolvedor e Web Designer Freelancer.</span></h2>
+          <h2>Olá, Sou <span>Lucas Menezes</span>, Desenvolvedor e Web Designer Freelancer.</h2>
           <p>
             Sou freelancer especializado em desenvolvimento de sites, tenho 22 anos e sou de Curitiba, PR. Atualmente, estou cursando Desenvolvimento Full Stack Python na EBAC – Escola Britânica de Artes Criativas e Tecnologia, onde descobri meu interesse por criação de sites e web design.          </p>
           <br />

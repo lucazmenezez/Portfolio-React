@@ -18,7 +18,7 @@ export const AboutContainer = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:rgba(6, 4, 23, 0.8);
+    background-color:rgba(6, 4, 23, 0.9);
     z-index: 1;
   }
 
@@ -53,7 +53,7 @@ export const Content = styled.div`
     border-radius: 12px;
     object-fit: cover;
     width: 100%;
-    max-height: 500px;
+    max-height: 600px;
     display: block;
     box-shadow: 0 0 4px ${cores.branco};
   }

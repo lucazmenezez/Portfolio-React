@@ -29,27 +29,22 @@ const Footer = () => (
           </Links>
           <SocialLinks>
             <li>
-              <a href="https://www.linkedin.com/in/lucas-menezes-39b310256/" target="_blank">
+              <a href="https://www.linkedin.com/in/lucas-menezes-39b310256/" target="_blank" title="Ir para o perfil no Linkedin">
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <a href="mailto:menezeslucas24082002@gmail.com?subject=Olá!&body=Gostaria de saber mais sobre os seus serviços." target="_blank">
+              <a href="mailto:menezeslucas24082002@gmail.com?subject=Olá!&body=Gostaria de saber mais sobre os seus serviços." target="_blank" title="Ir para o Email">
                 <i className="fas fa-envelope"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/lucazmenezez" target="_blank">
+              <a href="https://github.com/lucazmenezez" target="_blank" title="Ir para o perfil no Github">
                 <i className="fab fa-github"></i>
               </a>
             </li>
             <li>
-              <a href="https://dribbble.com/" target="_blank" >
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.behance.net/" target="_blank">
+              <a href="https://www.behance.net/lucasmenezes77" target="_blank" title="Ir para o perfil no Behance">
                 <i className="fab fa-behance"></i>
               </a>
             </li>

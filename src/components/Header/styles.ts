@@ -21,10 +21,15 @@ export const HeaderContainer = styled.div`
 `
 
 export const NavMobile = styled.nav`
-  display: none;
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
 
   &.is-open {
-    display: block;
+    max-height: 354px;
+    opacity: 1;
   }
 `
 

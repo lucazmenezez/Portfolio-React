@@ -133,8 +133,8 @@ export const Status = styled.div`
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #4CAF50; /* Verde para disponibilidade */
-    box-shadow: 0 0 4px rgba(76, 175, 80, 0.6); /* Efeito de brilho */
+    background-color: #4CAF50;
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.6);
   }
 
   span {

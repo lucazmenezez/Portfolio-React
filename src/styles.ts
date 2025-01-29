@@ -62,6 +62,7 @@ export const Title = styled.div`
 
   h2 {
     font-size: 40px;
+    line-height: 48px;
     font-weight: bold;
     margin: 8px 0 16px;
   }
@@ -79,6 +80,7 @@ export const Title = styled.div`
   @media (max-width: ${breakpoints.tablet}) {
     h2 {
       font-size: 28px;
+      line-height: 36px;
     }
 
     p {

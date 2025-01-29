@@ -44,7 +44,6 @@ export const AccordionHeader = styled.div`
 
 export const Content = styled.p`
   font-size: 16px;
-  font-weight: 500;
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);

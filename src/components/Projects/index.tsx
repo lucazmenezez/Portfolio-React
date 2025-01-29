@@ -22,7 +22,7 @@ const Projects = () => {
       id: 1,
       category: 'E-commerce',
       title: 'E-commerce Eplay',
-      description: 'Uma loja virtual de jogos de videogame, desenvolvida com React e Typescript. Esse projeto foi criado durante o módulo de Front-end do curso na EBAC, com todas as funcionalidades essenciais de um e-commerce para uma experiência de compra eficiente e dinâmica.',
+      description: 'E-commerce completo para venda de jogos digitais, com carrinho de compras, checkout e organização por categorias. O design responsivo e intuitivo garante uma experiência fluida para os usuários.',
       image: cover_eplay,
       link: 'https://ecommerce-eplay-two.vercel.app/'
     },
@@ -30,15 +30,15 @@ const Projects = () => {
       id: 2,
       category: "Site Institucional",
       title: "Site Souza Ternos",
-      description: "Meu primeiro site para um cliente real, desenvolvido do zero com HTML, SASS e Bootstrap. O site apresenta os produtos da loja, incluindo ternos e roupas sociais. Embora o cliente ainda esteja avaliando a melhor forma de prosseguir, o site já está 95% pronto para ser publicado online.",
+      description: "Site institucional desenvolvido para uma loja de ternos e roupas sociais. O projeto foi criado para apresentar os produtos e destacar a elegância da marca. Embora o cliente ainda não tenha iniciado as atividades, o site já está completo, pronto para receber imagens e depoimentos. O design é responsivo e foca em uma experiência visual sofisticada e intuitiva.",
       image: cover_souza_ternos,
-      link: '#'
+      link: 'https://souza-ternos.vercel.app/'
     },
     {
       id: 3,
       category: "Landing Page",
       title: "Landing Page de Alta Conversão",
-      description: "Landing Page com layout de Alta Conversão criada com Wordpress e Elementor, para vender produtos digitais",
+      description: "Desenvolvi uma landing page estratégica para a venda de produtos digitais, utilizando WordPress e Elementor. O foco foi criar um layout otimizado para conversão, garantindo alta performance e usabilidade.",
       image: cover_lp_ac,
       link: 'https://sandybrown-starling-750020.hostingersite.com/'
     },
@@ -46,7 +46,7 @@ const Projects = () => {
       id: 4,
       category: "E-commerce",
       title: "E-commerce Efood",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
+      description: "Loja virtual para delivery de alimentos, com carrinho de compras, checkout e organização por categorias. O design responsivo e intuitivo facilita a navegação e a experiência do usuário.",
       image: cover_efood,
       link: 'https://efood-rose-eight.vercel.app/'
     },
@@ -54,15 +54,15 @@ const Projects = () => {
       id: 5,
       category: "Site Institucional",
       title: "Site Modelo Para Advogados",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
+      description: "Site institucional desenvolvido para escritórios de advocacia, com seções para apresentação dos serviços, área sobre o advogado e um formulário de contato. O design é profissional e responsivo, garantindo uma navegação clara e objetiva.",
       image: cover_lawyer,
-      link: '#'
+      link: 'https://site-advogados-coral.vercel.app/'
     },
     {
       id: 6,
       category: "Site Institucional",
       title: "Site Modelo Para Barbearias",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
+      description: "Site institucional projetado para barbearias, com foco em uma apresentação clara dos serviços oferecidos, informações de contato e um design que reflete a identidade da marca. O layout responsivo garante que o site seja acessível em dispositivos móveis e desktops.",
       image: cover_barber,
       link: 'https://site-modelo-barbearia.vercel.app/'
     },
@@ -70,7 +70,7 @@ const Projects = () => {
       id: 7,
       category: "Site Institucional",
       title: "Site De Portfólio",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
+      description: "Site desenvolvido para apresentar trabalhos e projetos de forma profissional, com uma navegação intuitiva e seções organizadas para destacar habilidades e experiências. O design responsivo garante uma boa experiência tanto em desktop quanto em dispositivos móveis.",
       image: cover_portfolio,
       link: 'https://sitepronto.vercel.app/'
     },
@@ -78,7 +78,7 @@ const Projects = () => {
       id: 8,
       category: "Site Institucional",
       title: "Site De Restaurante",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
+      description: "Site institucional desenvolvido para restaurantes, apresentando cardápio com abas interativas, carrossel de imagens e um formulário de contato dinâmico com jQuery. O design responsivo garante uma navegação fluida em qualquer dispositivo.",
       image: cover_restaurant,
       link: 'https://lucas-projeto-restaurante.vercel.app/'
     },
@@ -86,7 +86,7 @@ const Projects = () => {
       id: 9,
       category: "Site Institucional",
       title: "Site Clone Do Disney+",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
+      description: "Reprodução visual do Disney+, recriando a interface da plataforma de streaming com layout responsivo e efeitos modernos. Possui estrutura de navegação semelhante, animações e design fiel à versão original.",
       image: cover_clone_dp,
       link: 'https://clone-disneyplus-one-rho.vercel.app/'
     },
@@ -94,7 +94,7 @@ const Projects = () => {
       id: 10,
       category: "Landing Page",
       title: "Landing Page Para Venda de Serviços",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque possimus voluptates illo recusandae.",
+      description: "Página profissional desenvolvida para apresentar serviços de forma clara e persuasiva. Possui seções estratégicas, chamadas para ação bem posicionadas e design responsivo para melhor navegação.",
       image: cover_lp,
       link: 'https://landing-page-vendas-pi.vercel.app/'
     }
