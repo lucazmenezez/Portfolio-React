@@ -26,6 +26,9 @@ const Footer = () => (
             <LinkItem>
               <a href="#websites">Sites</a>
             </LinkItem>
+            <LinkItem>
+              <a href="#contact">Contatos</a>
+            </LinkItem>
           </Links>
           <SocialLinks>
             <li>

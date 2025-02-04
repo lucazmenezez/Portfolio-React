@@ -29,13 +29,15 @@ export const AboutContainer = styled.div`
 `
 
 export const Content = styled.div`
-  display: flex;
-  gap: 100px;
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  gap: 80px;
 
   h3 {
     font-size: 16px;
     letter-spacing: 5px;
     color: ${cores.roxo};
+    text-transform: uppercase;
   }
 
   h2 {
@@ -50,12 +52,11 @@ export const Content = styled.div`
   }
 
   img {
-    border-radius: 12px;
+    border-radius: 8px;
     object-fit: cover;
     width: 100%;
     max-height: 600px;
     display: block;
-    box-shadow: 0 0 4px ${cores.branco};
   }
 
   @media (max-width: ${breakpoints.desktop}) {

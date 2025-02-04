@@ -71,6 +71,8 @@ export const Title = styled.div`
     font-size: 16px;
     letter-spacing: 1px;
     color: ${cores.cinza};
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   @media (max-width: ${breakpoints.desktop}) {

@@ -25,7 +25,7 @@ export const HeroContainer = styled.div`
 
   @media (max-width: ${breakpoints.desktop}) {
     .icon1 {
-      left: 40px;
+      left: 24px;
     }
 
     .icon2 {
@@ -95,8 +95,8 @@ export const MainTitle = styled.h1`
   line-height: 60px;
 
   @media (max-width: ${breakpoints.tablet}) {
-    font-size: 36px;
-    line-height: 54px;
+    font-size: 40px;
+    line-height: 48px;
   }
 `
 
