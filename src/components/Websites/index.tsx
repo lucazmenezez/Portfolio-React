@@ -57,7 +57,7 @@ const Websites = () => (
         </ListItem>
       </List>
       <Cta>
-        <ButtonPrimary href="https://api.whatsapp.com/send?phone=5541984589855&text=Olá! quero construir meu site." target="_blank">Quero Pedir Meu Site</ButtonPrimary>
+        <ButtonPrimary href="https://api.whatsapp.com/send?phone=5541984589855&text=Olá! quero construir meu site." target="_blank">QUERO PEDIR MEU SITE</ButtonPrimary>
       </Cta>
     </div>
   </WebsitesContainer>
