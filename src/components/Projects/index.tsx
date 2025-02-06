@@ -10,6 +10,7 @@ import cover_efood from '../../assets/images/capa_efood.png'
 import cover_lp from '../../assets/images/capa_lp.png'
 import cover_portfolio from '../../assets/images/capa_portfolio_teste.png'
 import cover_restaurant from '../../assets/images/capa_restaurante.png'
+import arrow from '../../assets/icons/arrow-right-solid.svg'
 
 import { Title } from "../../styles"
 import { List, ListItem, ProjectsContainer, TabButton } from "./styles"
@@ -142,7 +143,7 @@ const Projects = () => {
                   </p>
                   <a href={project.link || "#"} target="_blank">
                     Ver Projeto
-                    <i className="fas fa-arrow-right"></i>
+                    <img src={arrow} alt="ícone de flecha para direita" className="icon-arrow" />
                   </a>
                 </div>
               </ListItem>

@@ -1,3 +1,7 @@
+import envelope from '../../assets/icons/envelope-solid.svg'
+import phone from '../../assets/icons/phone-solid.svg'
+import headset from '../../assets/icons/headset-solid.svg'
+
 import { ContactContainer, ContactList, ContactTitle, ListItem } from "./styles"
 
 const Contact = () => (
@@ -13,21 +17,21 @@ const Contact = () => (
       <ContactList>
         <ListItem>
           <div>
-            <i className="fas fa-envelope"></i>
+            <img src={envelope} alt="ícone de email" />
             <h4>E-mail</h4>
           </div>
           <span>menezeslucas24082002@gmail.com</span>
         </ListItem>
         <ListItem>
           <div>
-            <i className="fas fa-phone"></i>
+            <img src={phone} alt="ícone de telenone" />
             <h4>Telefone</h4>
           </div>
           <span>(41) 984589855</span>
         </ListItem>
         <ListItem>
           <div>
-            <i className="fas fa-headset"></i>
+            <img src={headset} alt="ícone de atendimento" />
             <h4>Atendimento Via Whatsapp</h4>
           </div>
           <span>24h por dia, todos os dias da semana!</span>

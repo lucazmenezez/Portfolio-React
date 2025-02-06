@@ -12,6 +12,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1001;
 
   @media (max-width: ${breakpoints.desktop}) {
     > nav {
@@ -21,15 +22,41 @@ export const HeaderContainer = styled.div`
 `
 
 export const NavMobile = styled.nav`
-  display: block;
-  max-height: 0;
-  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: ${cores.azulEscuro};
   opacity: 0;
-  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transform: translateY(-100%);
+  z-index: 999;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 
   &.is-open {
-    max-height: 354px;
     opacity: 1;
+    transform: translateY(0);
+  }
+
+  button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: ${cores.branco};
+    font-size: 24px;
+    cursor: pointer;
+
+    img {
+      display: block;
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  @media (min-width: ${breakpoints.desktop}) {
+    display: none;
   }
 `
 
@@ -69,6 +96,7 @@ export const List = styled.ul`
 
   @media (max-width: ${breakpoints.desktop}) {
     display: block;
+    margin-top: 120px;
 
     li {
       margin-left: 0;
@@ -83,7 +111,7 @@ export const List = styled.ul`
 `
 
 export const Hamburguer = styled.div`
-  width: 32px;
+  width: 28px;
   cursor: pointer;
 
   span {
@@ -93,6 +121,7 @@ export const Hamburguer = styled.div`
     background-color: ${cores.branco};
     margin-bottom: 4px;
     border: none;
+    border-radius: 12px;
   }
 
   @media (min-width: ${breakpoints.desktop}) {

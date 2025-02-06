@@ -7,9 +7,9 @@ export const ReviewsContainer = styled.div`
   border-radius: 0 0 24px 24px;
 
   ${Title} {
-    i {
-      font-size: 84px;
-      color: ${cores.roxo};
+    img {
+      height: 90px;
+      width: 90px;
       margin-bottom: 8px;
     }
   }
@@ -35,9 +35,17 @@ export const CardItem = styled.li`
     justify-content: space-evenly;
     align-items: start;
 
-    i {
-      color: gold;
+    .div {
+      display: flex;
+      align-items: center;
+
+      .icon-star {
+        height: 18px;
+        width: 18px;
+        margin-right: 2px;
+      }
     }
+
 
     > p {
       color: ${cores.branco};
@@ -73,6 +81,7 @@ export const CardItem = styled.li`
   }
 
   @media (max-width: ${breakpoints.tablet}) {
+    padding: 18px;
 
     img {
       width: 100%;

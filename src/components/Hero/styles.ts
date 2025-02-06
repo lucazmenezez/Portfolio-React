@@ -80,7 +80,8 @@ export const Content = styled.div`
     z-index: -1;
     filter: blur(180px);
 
-    @media (max-width: ${breakpoints.tablet}) {
+    @media (max-width: ${breakpoints.desktop}) {
+      filter: blur(220px);
       width: 100%;
       max-width: 100%;
       height: 21rem;

@@ -22,7 +22,6 @@ export const ListItem = styled.li`
   transition: transform 0.3s ease-in-out;
   will-change: transform;
   cursor: pointer;
-  box-shadow: 0px 4px 10px ${cores.azulEscuro};
   position: relative;
 
   &:hover {
@@ -54,6 +53,10 @@ export const BackgroundImage = styled.div`
 
   @media (max-width: ${breakpoints.desktop}) {
     padding: 32px;
+
+    &::before {
+      background: rgba(0, 0, 0, 0.6);
+    }
   }
 `
 

@@ -1,4 +1,7 @@
 import { useState } from "react"
+
+import closeIcon from '../../assets/icons/x-solid.svg'
+
 import { Hamburguer, HeaderBar, HeaderContainer, List, NavMobile, Title } from "./styles"
 
 const Header = () => {
@@ -37,6 +40,9 @@ const Header = () => {
         </nav>
       </HeaderContainer>
       <NavMobile className={menuOpen ? 'is-open' : ''}>
+        <button onClick={() => setMenuOpen(false)}>
+          <img src={closeIcon} alt="ícone de fechar" />
+        </button>
         <List>
           <li>
             <a href="#home">Início</a>

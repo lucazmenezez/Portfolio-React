@@ -56,9 +56,9 @@ export const ListItem = styled.li`
     gap: 16px;
     margin-bottom: 8px;
 
-    i {
-      color: ${cores.roxo};
-      font-size: 20px;
+    img {
+      height: 20px;
+      width: 20px;
     }
 
     h4 {

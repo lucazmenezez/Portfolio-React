@@ -122,17 +122,22 @@ export const ListItem = styled.ul`
 
     a {
       color: ${cores.branco};
-      display: block;
       font-size: 16px;
       font-weight: 500;
       margin-top: 16px;
+      display: flex;
+      align-items: center;
 
-      i {
+      .icon-arrow {
+        height: 16px;
+        width: 16px;
+        flex-wrap: nowrap;
+        display: inline-block;
         margin-left: 8px;
         transition: transform .5s ease;
       }
 
-      &:hover i {
+      &:hover .icon-arrow {
         transform: translateX(8px);
       }
     }

@@ -1,3 +1,8 @@
+import envelopeWhite from '../../assets/icons/envelope-solid-white.svg'
+import linkedin from '../../assets/icons/linkedin-brands-solid.svg'
+import behance from '../../assets/icons/behance-brands-solid.svg'
+import github from '../../assets/icons/github-brands-solid.svg'
+
 import { FooterContainer, FooterContent, LinkItem, Links, PrimaryRow, SecondaryRow, SocialLinks } from "./styles"
 
 const currentYear = new Date().getFullYear()
@@ -33,22 +38,22 @@ const Footer = () => (
           <SocialLinks>
             <li>
               <a href="https://www.linkedin.com/in/lucas-menezes-39b310256/" target="_blank" title="Ir para o perfil no Linkedin">
-                <i className="fab fa-linkedin"></i>
+                <img src={linkedin} alt="ícone do linkedin" />
               </a>
             </li>
             <li>
               <a href="mailto:menezeslucas24082002@gmail.com?subject=Olá!&body=Gostaria de saber mais sobre os seus serviços." target="_blank" title="Ir para o Email">
-                <i className="fas fa-envelope"></i>
+                <img src={envelopeWhite} alt="ícone do email" />
               </a>
             </li>
             <li>
               <a href="https://github.com/lucazmenezez" target="_blank" title="Ir para o perfil no Github">
-                <i className="fab fa-github"></i>
+                <img src={github} alt="ícone do github" />
               </a>
             </li>
             <li>
               <a href="https://www.behance.net/lucasmenezes77" target="_blank" title="Ir para o perfil no Behance">
-                <i className="fab fa-behance"></i>
+                <img src={behance} alt="ícone do behance" />
               </a>
             </li>
           </SocialLinks>

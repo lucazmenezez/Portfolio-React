@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { breakpoints, cores } from "../../styles";
 
 export const FooterContainer = styled.footer`
@@ -67,15 +68,15 @@ export const LinkItem = styled.li`
 export const SocialLinks = styled(Links)`
   column-gap: 12px;
 
-  i {
-    color: ${cores.branco};
-    font-size: 20px;
+  img {
+    height: 20px;
+    width: 20px;
     transition: transform 0.5s ease;
     will-change: transform;
   }
 
   li {
-    &:hover i {
+    &:hover img {
       transform: translateY(-8px);
     }
   }

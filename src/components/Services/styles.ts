@@ -65,9 +65,9 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
 
-  i {
-    font-size: 48px;
-    color: ${cores.roxo};
+  .icons-services {
+    height: 80px;
+    width: 80px;
   }
 
   h4 {
@@ -84,10 +84,6 @@ export const ListItem = styled.li`
     background-color: ${cores.roxo};
     padding: 24px;
     border-radius: 12px;
-
-    i {
-      color: ${cores.branco};
-    }
 
     p {
       color: ${cores.branco};
