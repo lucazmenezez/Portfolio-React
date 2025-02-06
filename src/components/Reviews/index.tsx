@@ -36,7 +36,7 @@ const Reviews = () => (
               <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i>
             </div>
             <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe delectus, incidunt natus fuga, recusandae corrupti ad porro esse unde atque corporis inventore debitis aspernatur nulla officiis vel nostrum ex lorem ipsum."
+              "Passando aqui só para deixar o meu comentário sobre o Lucas. Um ótimo profissional, me atendeu super bem, fez um site para minha futura loja e ficou muito bacana mesmo, superou minhas expectativas. Conheço tanto o trabalho dele quanto a pessoa que o Lucas é: de confiança, de palavra e uma pessoa honesta. Super indico a vocês."
             </p>
             <InfosPerson>
               <p>Brenno Souza</p>

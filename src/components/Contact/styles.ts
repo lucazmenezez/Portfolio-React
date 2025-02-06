@@ -19,6 +19,8 @@ export const ContactTitle = styled.div`
   h3 {
     font-size: 14px;
     color: ${cores.roxo};
+    text-transform: uppercase;
+    letter-spacing: 5px;
   }
 
   h2 {

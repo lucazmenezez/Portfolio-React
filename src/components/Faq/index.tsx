@@ -49,7 +49,7 @@ const Faq = () => {
         <Title>
           <h2>Perguntas Frequentes</h2>
           <p>
-            Encontre as respostas para as dúvidas mais comuns sobre nossos serviços.
+            Encontre as respostas para as dúvidas mais comuns sobre os nossos serviços.
           </p>
         </Title>
         <Accordion>

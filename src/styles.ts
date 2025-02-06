@@ -58,6 +58,8 @@ export const Title = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${cores.roxo};
+    text-transform: uppercase;
+    letter-spacing: 5px;
   }
 
   h2 {

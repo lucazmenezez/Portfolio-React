@@ -1,14 +1,9 @@
 import styled from "styled-components";
 import { breakpoints, cores } from "../../styles";
-import waves_background from '../../assets/images/waves_background.jpg'
 
 export const AboutContainer = styled.div`
   background-color: ${cores.azulEscuro};
   padding: 112px 0;
-  background-image: url(${waves_background});
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
 
   &::before {

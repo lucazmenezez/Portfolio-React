@@ -9,7 +9,7 @@ const Websites = () => (
   <WebsitesContainer id="websites">
     <div className="container">
       <Title>
-        <h3>Tipos de Sites</h3>
+        <h3>Sites</h3>
         <h2>Qual Tipo de Site é Ideal Para o Seu Negócio?</h2>
         <p>
           Descubra qual solução atende melhor às suas necessidades, seja para um site institucional, landing page ou e-commerce.

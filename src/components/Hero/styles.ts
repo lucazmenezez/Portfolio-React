@@ -9,8 +9,8 @@ export const HeroContainer = styled.div`
     position: absolute;
     top: 0;
     left: 120px;
-    height: 48px;
-    width: 48px;
+    height: 40px;
+    width: 40px;
     display: block;
   }
 
@@ -91,7 +91,7 @@ export const Content = styled.div`
 
 export const MainTitle = styled.h1`
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 60px;
 
   @media (max-width: ${breakpoints.tablet}) {
@@ -134,7 +134,7 @@ export const Status = styled.div`
     height: 12px;
     border-radius: 50%;
     background-color: #4CAF50;
-    box-shadow: 0 0 4px rgba(76, 175, 80, 0.6);
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
   }
 
   span {

@@ -34,7 +34,7 @@ export const NavMobile = styled.nav`
 `
 
 export const Title = styled.a`
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
   color: ${cores.branco};
@@ -60,12 +60,10 @@ export const List = styled.ul`
   a {
     color: ${cores.branco};
     font-weight: 400;
-    border-bottom: 2px solid transparent;
-    transition: color 0.5s ease, border 0.5s ease;
+    transition: color 0.4s ease;
 
     &:hover {
       color: ${cores.cinza};
-      border-bottom: 2px solid ${cores.cinza};
     }
   }
 
