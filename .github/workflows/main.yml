@@ -1,0 +1,29 @@
+name: Deploy React to Hostinger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📂 Clonar o repositório
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Instalar dependências
+        run: npm install
+
+      - name: 🔨 Construir o projeto
+        run: npm run build
+
+      - name: 📤 Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.147.79.84.199 }}
+          username: ${{ secrets.u202635013.linen-duck-831318.hostingersite.com }}
+          password: ${{ secrets.ps35@rsaA }}
+          local-dir: dist/
+          server-dir: public_html/
