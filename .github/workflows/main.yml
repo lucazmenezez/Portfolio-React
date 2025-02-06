@@ -22,8 +22,8 @@ jobs:
       - name: 📤 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4
         with:
-          server: ${{ secrets.147.79.84.199 }}
-          username: ${{ secrets.u202635013.linen-duck-831318.hostingersite.com }}
-          password: ${{ secrets.ps35@rsaA }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
           server-dir: public_html/
